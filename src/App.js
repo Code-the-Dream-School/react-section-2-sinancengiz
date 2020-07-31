@@ -15,7 +15,7 @@ import {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-section-2-sinancengiz">
         <div >
           <Header />
           <Route exact path="/"  component={Profile} />
